@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lightransform - Unicode to Walkman Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lightransform</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Font Converter</a>
+      <a href="#">About Us</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Unicode to Walkman-Chanakya 905</h2>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <textarea id="outputText" placeholder="Converted text will appear here..."></textarea>
+    <div class="buttons">
+      <button onclick="copyToClipboard()">Copy</button>
+      <button onclick="clearText()">Clear</button>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.1/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
